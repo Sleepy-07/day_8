@@ -5,43 +5,43 @@
     android:id="@+id/main"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:layout_margin="20dp">
+    android:background="@drawable/grey">
 
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="78dp"
-        android:gravity="center"
+        android:layout_gravity="center"
         android:text="Sign up"
         android:textSize="40dp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="181dp"
-        tools:layout_editor_absoluteY="31dp" />
+       />
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
         android:text="Name : "
         android:textSize="40dp"
         android:textStyle="bold"
-        android:layout_margin="5dp"/>
+       />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="text"
         android:textSize="30dp"
-        android:text="Enter the name"
+        android:hint="Enter your name"
         android:layout_marginHorizontal="20dp"
         android:textStyle="italic"
         />
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:text="Email :"
         android:textSize="40dp"
         android:textStyle="bold"
@@ -51,13 +51,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
-        android:text="Enter your email"
+        android:hint="Enter your email"
         android:textSize="30dp"
         android:textStyle="italic"
         android:layout_marginHorizontal="20dp"                                />
  <TextView
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:text=" Contact :"
         android:textSize="40dp"
         android:textStyle="bold"
@@ -67,14 +67,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPhonetic"
-        android:text="Enter Your Number "
+        android:hint="Enter Your Number "
         android:layout_marginHorizontal="20dp"
         android:textSize="30dp"
         android:textStyle="italic"
         />
  <TextView
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:text=" Address :"
         android:textSize="40dp"
         android:textStyle="bold"
@@ -84,7 +84,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="text"
-        android:text="Enter Your Address "
+        android:hint="Enter Your Address "
         android:layout_marginHorizontal="20dp"
         android:textSize="30dp"
         android:textStyle="italic"
