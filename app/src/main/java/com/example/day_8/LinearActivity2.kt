@@ -42,4 +42,14 @@ class LinearActivity2 : AppCompatActivity() {
         super.onDestroy()
         Toast.makeText(this,"On destroy", Toast.LENGTH_SHORT).show()
     }
+
+    override fun onRestart() {
+        super.onRestart()
+        Toast.makeText(this,"On Restart ", Toast.LENGTH_SHORT).show()
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Toast.makeText(this,"On Pause", Toast.LENGTH_SHORT).show()
+    }
 }
